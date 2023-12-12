@@ -1,7 +1,7 @@
 {
-   "name": "UC - Execute PL\/SQL Code",
-   "version": "22.1.0",
-   "description": "Execute PL\/SQL code on the server with support for CLOB values, notifications, spinners, and more.\r\n\u003Ch4\u003EFree Plug-in under MIT License\u003C\/h4\u003E\r\n\u003Cp\u003E\r\nAll UC plug-ins are released under MIT License, which essentially means it is free for everyone to use, no matter if commercial or private use. \r\n\u003C\/p\u003E\r\n\u003Ch4\u003EOverview\u003C\/h4\u003E\r\n\u003Cp\u003EThe \u003Cstrong\u003EUC - Execute PL\/SQL Code\u003C\/strong\u003E dynamic action plug-in introduces some enhancements to the existing \"Execute PL\/SQL Code\" dynamic action that APEX provides. These additional features include:\u003C\/p\u003E\r\n\u003Col\u003E\r\n\u003Cli\u003EProviding a processing icon whilst optionally masking the background either at the region or page level\u003C\/li\u003E\r\n\u003Cli\u003EDeclarative Success \u0026 Error Notifications\u003C\/li\u003E\r\n\u003Cli\u003ESubmitting and returning CLOB data using page items or Javascript variables\u003C\/li\u003E\r\n\u003Cli\u003EReturning the execution results to a Javascript variable\u003C\/li\u003E\r\n\u003Cli\u003EOptionally suppressing the change event on page item values that are returned\u003C\/li\u003E\r\n\u003C\/ol\u003E",
+   "name": "UC - Execute PL/SQL Code",
+   "version": "23.1",
+   "description": "Free Plug-in under MIT License, which means it is free for everyone to use, no matter if for commercial or private use. The UC - Execute PL/SQL Code dynamic action plug-in introduces some enhancements to the existing 'Execute PL/SQL Code' dynamic action that APEX provides. These additional features include: Providing a processing icon whilst optionally masking the background either at the region or page level, Declarative Success & Error Notifications, Submitting and returning CLOB data using page items or Javascript variables, Returning the execution results to a Javascript variable, and Optionally suppressing the change event on page item values that are returned.",
    "keywords": [
       "execute",
       "plsql",
@@ -13,20 +13,20 @@
    "license": "MIT",
    "commercial": "No",
    "commercially_supported": "Yes",
-   "homepage": "https:\/\/github.com\/foex-open-source\/uc-execute-plsql-code",
+   "homepage": "https://www.plug-ins-pro.com/",
    "bugs": {
-      "url": "https:\/\/github.com\/foex-open-source\/uc-execute-plsql-code\/issues",
-      "email": "support@uc.world"
+      "url": "https://github.com/plug-ins-pro/execute_plsql_code/issues",
+      "email": "info@plug-ins-pro.com"
    },
    "author": {
-      "name": "UC GmbH",
-      "email": "office@uc.world",
-      "url": "https:\/\/foex.at\/uc\/",
-      "twitter": "@foexopensource"
+      "name": "United Codes",
+      "email": "info@plug-ins-pro.com",
+      "url": "https://www.plug-ins-pro.com/",
+      "twitter": "@Plug_ins_Pro"
    },
    "repository": {
       "type": "git",
-      "url": "https:\/\/github.com\/foex-open-source\/uc-execute-plsql-code.git"
+      "url": "https://github.com/plug-ins-pro/execute_plsql_code"
    },
    "oracle": {
       "versions": [
@@ -34,7 +34,8 @@
          "12.2.0.1",
          "18.0.0.0",
          "19.0.0.0",
-         "21.0.0.0"
+         "21.0.0.0",
+         "23.0.0.0"
       ],
       "apex": {
          "versions": [
@@ -43,13 +44,15 @@
             "20.2.0",
             "21.1.0",
             "21.2.0",
-            "22.1.0"
+            "22.1.0",
+            "23.1.0",
+            "23.2.0"
          ],
          "plugin": {
             "internalName": "UNITEDCODES_EXECUTE_PLSQL_CODE",
             "type": "dynamic action",
-            "demo": "https:\/\/uc.world\/ords\/f?p=10000:1020",
-            "previewImage": "https:\/\/uc.world\/ords\/uc_master_ws\/uc-image\/COM.UC.EXECUTE_PLSQL_CODE"
+            "demo" : "https://www.united-codes.com/ords/pluginspro_web/r/pluginspro_free/",
+            "previewImage": "https://unitedcodes.s3.eu-west-1.amazonaws.com/plugin/images/UC_EXECUTE_PLSQL_CODE.png"
          }
       }
    }
