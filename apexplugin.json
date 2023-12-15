@@ -1,7 +1,7 @@
 {
    "name": "UC - Execute PL/SQL Code",
    "version": "23.1",
-   "description": "Free Plug-in under MIT License, which means it is free for everyone to use, no matter if for commercial or private use. The UC - Execute PL/SQL Code dynamic action plug-in introduces some enhancements to the existing 'Execute PL/SQL Code' dynamic action that APEX provides. These additional features include: Providing a processing icon whilst optionally masking the background either at the region or page level, Declarative Success & Error Notifications, Submitting and returning CLOB data using page items or Javascript variables, Returning the execution results to a Javascript variable, and Optionally suppressing the change event on page item values that are returned.",
+   "description": "Free Plug-in under MIT License, which means it is free for everyone to use, no matter if for commercial or private use. The UC - Execute PL/SQL Code dynamic action plug-in introduces some enhancements to the existing Execute PL/SQL Code dynamic action that APEX provides. These additional features include: Providing a processing icon whilst optionally masking the background either at the region or page level, Declarative Success & Error Notifications, Submitting and returning CLOB data using page items or Javascript variables, Returning the execution results to a Javascript variable, and Optionally suppressing the change event on page item values that are returned.",
    "keywords": [
       "execute",
       "plsql",
